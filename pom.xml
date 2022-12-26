@@ -2,10 +2,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>ecphp</groupId>
-    <artifactId>cns-php-client</artifactId>
+    <artifactId>cns-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>EC PHP / CNS Openapi Client</name>
-    <description>European Commision PHP / Corporate Notification System (CNS) REST API Client</description>
+    <description>European Commision / Corporate Notification System (CNS) REST API Client</description>
 
     <build>
 

@@ -1,5 +1,6 @@
 {
-    "description": "Version v1.2.0 of Corporate Notification System (CNS) REST API.",
+    "name": "ec/cns-client",
+    "description": "European Commision / Corporate Notification System (CNS) REST API Client",
     "keywords": [
         "openapitools",
         "openapi-generator",
