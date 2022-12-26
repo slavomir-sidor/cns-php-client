@@ -1,0 +1,44 @@
+{
+    "description": "Version v1.2.0 of Corporate Notification System (CNS) REST API.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api",
+        "EC",
+        "CNS"
+    ],
+    "homepage": "https://packagist.org/packages/ec-php/cns-php-client",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Slavomir Sidor",
+            "homepage": "https://github.com/slavomir-sidor"
+        },
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "EC\\CNS\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "EC\\CNS\\Client\\Test\\" : "test/" }
+    }
+}
